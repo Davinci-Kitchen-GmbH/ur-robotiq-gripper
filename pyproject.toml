@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ur_robotiq_gripper"
+version = "0.1.0"
+description = "A simple and easy to use python module to control the Robotiq Hand-E gripper attached to a Universal Robots robot arm."
+authors = ["Fabian Freihube <fabi@davincikitchen.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.black]
+line-length = 119
+target-version = ['py36', 'py37', 'py38']
