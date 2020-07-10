@@ -4,7 +4,7 @@ This driver depends on a installed Robotiq grippers URCap on the UR arm.
 
 The code was tested on Robotiq Hand-E and was originally developed for the Gripper 2F-85. Since the 2F-140 is controlled just as the 2F-85 it is save to assume that the code works for all these 3 types of Robotiq grippers.
 
-The code was originally written by the team of [SDU Robotics](https://gitlab.com/sdurobotics) and adapted by us to use with asyncio. You can find further thoughts an explanation regarding the control of Robotiq grippers attached to a UR arm on their [Website](https://sdurobotics.gitlab.io/ur_rtde/guides/guides.html#use-with-robotiq-gripper).
+The code was originally written by the team of [SDU Robotics](https://gitlab.com/sdurobotics) and adapted by us to use with asyncio. You can find further thoughts and explanations regarding the control of Robotiq grippers attached to a UR arm on their [Website](https://sdurobotics.gitlab.io/ur_rtde/guides/guides.html#use-with-robotiq-gripper).
 
 ## Usage
 
