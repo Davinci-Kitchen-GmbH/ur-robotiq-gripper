@@ -14,7 +14,7 @@ readme = ''
 setup(
     long_description=readme,
     name='ur_robotiq_gripper',
-    version='0.1.0',
+    version='0.1.2',
     description='A simple and easy to use python module to control the Robotiq Hand-E gripper attached to a Universal Robots robot arm.',
     python_requires='==3.*,>=3.6.0',
     author='Fabian Freihube',
